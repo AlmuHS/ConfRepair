@@ -1,4 +1,8 @@
+
 **Autómata de reparación de ficheros de configuración**
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.
+
 
 **Objetivo**
 
@@ -48,7 +52,8 @@ En un futuro, se podrían añadir nuevas funcionalidades para restaurar ficheros
 
 Esta implementación abarca todas las funcionalidades del autómata, pero a su vez es la menos eficiente y la que menos casuística abarca en la resolución de errores dentro del fichero.
 
-Se basa en chequeos periódicos, en los cuales detecta modificaciones en el árbol de ficheros y directorios, y posibles errores en los mismos.Este chequeo permite no solo detectar ficheros erróneos, sino también ficheros eliminados que debieran ser restaurados. Ademas, podrá ser instalado en un sistema "en sucio"
+Se basa en chequeos periódicos, en los cuales detecta modificaciones en el árbol de ficheros y directorios, y posibles errores en los mismos.
+Este chequeo permite no solo detectar ficheros erróneos, sino también ficheros eliminados que debieran ser restaurados. Ademas, podrá ser instalado en un sistema "en sucio"
 
 En el primer chequeo se usara un sistema de detección de errores sin uso de versiones, para corregir  todos los posibles errores existentes en el árbol de ficheros, corregirlos, e inicializar el registro.
 
